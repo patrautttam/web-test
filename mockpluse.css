@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+body{
+    background-image: url(mockpluse.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.nav{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+.nav{
+    background: rgb(0, 100, 0);
+    text-align: center;
+    color: white;
+}
+.nav ul{
+    display: inline-flex;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text
+
+}
+.nav ul li{
+    padding: 16px 50px;
+}
+.active a{
+    
+    padding: 4px 15px;
+}
+.active a:hover{
+    background-color: #13952f;
+}
